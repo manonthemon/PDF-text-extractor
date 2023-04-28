@@ -18,7 +18,7 @@ This application requires python, as well as the following libraries:
 
 - pyperclip
 - PyMuPDF
-- googletrans==4.0.0-rc1
+- googletrans
 
 To use the application:
 
