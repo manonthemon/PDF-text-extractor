@@ -22,12 +22,11 @@ for page in pdfFile:
 pyperclip.copy(text)
 
 # Print the text to verify that it was copied correctly
-print("This text has been copied to clipboard" + "\n" + text)
+print(text)
+print("This text has been copied to clipboard")
 
 # Ask the user if they want to translate the text
 response = input("Would you like to translate it? (Y/N)")
-
-# Check if the user wants to translate the text
 if response.lower() == "y":
     target_lang = input("Enter the target language code (e.g., 'es' for Spanish): ")
 
